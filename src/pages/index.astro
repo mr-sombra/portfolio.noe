@@ -10,9 +10,13 @@ import DownloadIcon from "../components/Icons/Download.astro";
 import BriefcaseIcon from "../components/Icons/Briefcase.astro";
 import CodeIcon from "../components/Icons/Code.astro";
 import Experience from "../components/Experience.astro";
+import Projects from "../components/Projects.astro";
 ---
 
-<Layout title="Welcome to Astro." description="blab alal">
+<Layout
+  title="Noe Lopez - Mechatronics Student"
+  description="Take a look of my experience in the Mechatronics field"
+>
   <main class="px-4">
     <SectionContainer class="py-44 pb-32">
       <img
@@ -80,6 +84,25 @@ import Experience from "../components/Experience.astro";
       >
         <CodeIcon class="size-7" />
          Projects
+      </h2>
+      <Projects />
+    </SectionContainer>
+
+    <SectionContainer id="about">
+      <h2
+        class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80"
+      >
+        <CodeIcon class="size-7" />
+         About Me
+      </h2>
+    </SectionContainer>
+
+    <SectionContainer id="contact">
+      <h2
+        class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80"
+      >
+        <CodeIcon class="size-7" />
+         Contact
       </h2>
     </SectionContainer>
   </main>
